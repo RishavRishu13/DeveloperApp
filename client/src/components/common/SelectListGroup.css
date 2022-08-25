@@ -1,0 +1,14 @@
+.form > select {
+    width: 100%;
+    color: wheat;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: rgb(40, 40, 40);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}

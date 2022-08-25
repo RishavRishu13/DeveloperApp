@@ -1,0 +1,89 @@
+.postForm {
+    width: 70%;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+}
+
+.postForm > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 25px; */
+}
+
+.postForm > form > .top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 25px;
+
+}
+
+.postForm > form > .top > img {
+    border-radius: 100%;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.postForm > form > .top > input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.postForm > form > .top > input::placeholder {
+    color: black;
+    font-size: 18px;
+}
+
+
+.postForm > form > .top > input:focus {
+    outline: none;
+}
+
+.postForm > form > .bottom {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postForm > form > .bottom > label > img {
+    width: 40px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.postForm > form > .bottom > label > img:hover {
+    transform: scale(1.2);
+}
+
+.postForm > form > .bottom > .fileInput::-webkit-file-upload-button {
+    visibility: none;
+    display: none;
+}
+
+.postForm > form > .bottom > .fileInput {
+    margin-right: auto;
+}
+
+.postForm > form > .bottom > .btn {
+    padding: 10px;
+    width: 25%;
+    background-color: #0b1401;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+

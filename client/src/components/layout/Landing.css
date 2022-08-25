@@ -1,0 +1,13 @@
+.landingPage {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./background.svg");
+    background-size: cover;
+    background-color: #dfe1e6;
+}
+
+.landingPage > .right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}

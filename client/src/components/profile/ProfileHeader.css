@@ -1,0 +1,117 @@
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.profile-card > header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.profile-card > header > img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    border: 15px solid transparent;
+    margin-top: 12px;
+    transition: all .3s ease-out;
+}
+
+.profile-card > header > .profile-bio {
+    text-align: center;
+    width: 75%;
+}
+
+.profile-card > header > img:hover {
+    transform: scale(1.06, 1.06);
+}
+
+.profile-card > .profile-social-links {
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6px 0;
+    width: 100%;
+}
+
+.profile-card > .profile-social-links > li {
+    display: inline-block;
+    padding: 3px 5px 0;
+
+}
+
+.profile-card > .profile-social-links > li > a > img {
+    height: 28px;
+    opacity: 0.8;
+    transition: all .2s ease-out;
+}
+
+.profile-card > .profile-social-links > li > a:hover img {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+}
+
+.profile-card > .profile-social-links:after {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #ffffff;
+      border-width: 10px;
+      margin-left: -10px;
+}
+
+.profile-card > header > .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card > header > .resume > img {
+    width: 40px;
+}
+
+.profile-card > header > .resume > a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.profile-card > header > .resume > a:hover {
+    background-color: wheat;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) and (min-width: 0px) {
+    .profile-card {
+        width: 560px;
+    }
+}

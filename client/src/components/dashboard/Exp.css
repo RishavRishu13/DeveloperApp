@@ -1,0 +1,82 @@
+.table {
+	width:100%;
+	border:1px solid #eeeeee;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background: rgb(41, 40, 40);
+	padding:18px 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:18px 0;
+}
+
+.table-row:nth-of-type(odd) {
+	background: #949494;
+}
+
+.table-row:nth-of-type(even) {
+	background: #dddddd;
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+	text-align:center;
+}
+
+.table-data > button {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	width: 75%;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.table-data > button:hover {
+	background-color: rgb(41, 40, 40);
+	color: wheat;
+}
+
+.header__item {
+	text-transform:uppercase;
+}
+
+.filter__link {
+	color: wheat;
+	text-decoration: none;
+	position:relative;
+	display:inline-block;
+	padding-left:24px;
+	padding-right:24px;
+	font-weight: 600;
+}
+
+.filter__link::after {
+	content:'';
+	position:absolute;
+	right: -18px;
+	color:white;
+	font-size:18px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.filter__link .desc::after {
+	content: '(desc)';
+}
+
+.filter__link .asc::after {
+	content: '(asc)';
+}

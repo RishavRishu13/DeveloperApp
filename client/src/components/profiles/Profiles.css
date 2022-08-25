@@ -1,0 +1,16 @@
+.profiles {
+    background-image: url('./background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profiles > .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 50px;
+}

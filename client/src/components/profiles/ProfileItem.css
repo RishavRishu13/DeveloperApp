@@ -1,0 +1,60 @@
+.profileContainer {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profileContainer > .profileCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    background-color: #696967;
+    width: 80%;
+
+}
+
+.profileContainer > .profileCard:hover {
+    background-color: black;
+}
+
+.profileContainer > .profileCard > .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContainer > .profileCard > .left > img {
+    width: 100px;
+    padding: 25px;
+    border-radius: 100%;
+}
+.profileContainer > .profileCard > .left > .details > .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.profileContainer > .profileCard > .left > .details > .handle {
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+}
+
+.profileContainer > .profileCard > .left > .details > .status {
+    color: wheat;
+}
+
+.profileContainer > .profileCard > .right > .btn > p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.profileContainer > .profileCard:hover > .right > .btn > p {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,110 @@
+.dashboard {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dashboard__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboard__header > img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.dashboard__resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dashboard__resume > img {
+    height: 40px;
+    width: 40px;
+}
+
+.dashboard__resume > a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dashboard__resume > a:hover {
+    background-color: rgb(179, 176, 176);
+    border-radius: 10px;
+}
+
+
+.dashboard__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.dashboard__exp {
+    margin-top: 25px;
+}
+
+.dashboard__exp > .title {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.dashboard__edu {
+    margin-top: 50px;
+}
+
+.dashboard__edu > .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.dashboard__delete {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.dashboard__delete > .btn {
+    background-color: rgb(41, 40, 40);
+    border-color: rgb(41, 40, 40);
+    color: wheat;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+
+.dashboard__delete > .btn:hover {
+    color: rgb(41, 40, 40);
+    background-color: wheat;
+    border-color: rgb(41, 40, 40);
+
+}

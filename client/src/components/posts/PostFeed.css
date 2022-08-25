@@ -1,0 +1,111 @@
+.postFeed {
+    /* border: 1px solid black; */
+    width: 70%;
+}
+
+.postFeed > .postFeedCard {
+    /* border: 1px solid black; */
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.postFeed > .postFeedCard > .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.postFeed > .postFeedCard > .header > img {
+    width: 40px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.postFeed > .postFeedCard > .header > .details > .name {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.postFeed > .postFeedCard > .header > .details > .date {
+    font-size: 12px;
+}
+
+.postFeed > .postFeedCard > ._text {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.postFeed > .postFeedCard > .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.postFeed > .postFeedCard > .media > img {
+    height: 250px;
+    width: 500px;
+}
+
+.postFeed > .postFeedCard > .media > video {
+    width: 100%;
+}
+
+.postFeed > .postFeedCard > .media > a {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(40, 88, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postFeed > .postFeedCard > .media > a > img {
+    width: 25px;
+    margin-right: 2px;
+}
+
+.postFeed > .postFeedCard > .reaction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postFeed > .postFeedCard > .reaction > .heart {
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.postFeed > .postFeedCard > .reaction > .heart:hover {
+    transform: scale(1.2);
+}
+
+.postFeed > .postFeedCard > .action > .deleteBtn {
+
+    margin-right: 25px;
+    background-color: rgb(141, 10, 10);
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    letter-spacing: 2px;
+
+}
+
+
+
+.postFeed > .postFeedCard > .action > .commentBtn {
+    margin-right: 25px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    letter-spacing: 2px;
+}

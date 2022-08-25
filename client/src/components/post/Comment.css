@@ -1,0 +1,60 @@
+.commentContainer{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.commentContainer > .comment {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.commentContainer > .comment > .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.commentContainer > .comment > .left > img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.commentContainer > .comment > .left > .userDetails > .name {
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.commentContainer > .comment > .left > .userDetails > .date {
+    font-size: 12px;
+}
+
+.commentContainer > .comment > .middle {
+    margin-left: 50px;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.commentContainer > .comment > .right > button {
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(187, 36, 36);
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.commentContainer > .comment > .right > button:hover {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
